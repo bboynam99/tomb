@@ -307,7 +307,7 @@ const Home = () => {
                 </CardIcon>
               </Box>
               <Box mt={2}>
-                <Button color="primary" onClick={onPresentTombZap} variant="contained">
+                <Button color="primary" onClick={onPresentTombZap} variant="contained" style={{ marginRight: '10px' }}>
                   Zap In
                 </Button>
               </Box>
@@ -339,6 +339,7 @@ const Home = () => {
                   color="primary"
                   onClick={onPresentTshareZap}
                   variant="contained"
+                  style={{ marginRight: '10px' }}
                 >
                   Zap In
                 </Button>
